@@ -130,10 +130,6 @@ input::placeholder {
   }
 }
 
-.is-hidden {
-  display: none;
-}
-
 .button-load {
   display: block;
   margin: 20px auto;
@@ -145,3 +141,8 @@ input::placeholder {
   color: #fff;
   cursor: pointer;
 }
+
+.is-hidden {
+  display: none;
+}
+
