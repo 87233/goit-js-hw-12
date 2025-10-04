@@ -81,7 +81,9 @@ async function fetchIm(query, page) {
       position: 'topRight',
     });
   } finally {
+    setTimeout(() => {
     hideLoader();
+  }, 1500);
     if (page === 1) {
       form.reset();
     }

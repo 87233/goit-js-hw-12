@@ -85,8 +85,10 @@ input::placeholder {
 }
 
 .loader {
+  display: block;
+  margin: 20px auto;
   position: relative;
-  margin: auto;
+  /* margin: auto; */
   box-sizing: border-box;
   width: 120px;
   height: 120px;
@@ -103,12 +105,12 @@ input::placeholder {
   inset: -4px;
   border-radius: 50%;
   box-sizing: border-box;
-  border: 4px solid #0000;
+  border: 4px solid #8d050500;
   animation: spinner-spin 1.2s cubic-bezier(0.6, 0.2, 0, 0.8) infinite,
     spinner-fade 1.2s linear infinite;
 }
 .loader:before {
-  border-top-color: #fff;
+  border-top-color: #161111;
 }
 .loader:after {
   border-top-color: #ff3d00;
